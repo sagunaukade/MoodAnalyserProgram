@@ -23,7 +23,7 @@ namespace MoodAnalyser
             }
 
             //Constructor to initialize ExceptionTypes
-            public MoodAnalyzerException(ExceptionTypes type, string message) : base(message)
+            public MoodAnalyserException(ExceptionTypes type, string message) : base(message)
             {
                 this.type = type;
             }
